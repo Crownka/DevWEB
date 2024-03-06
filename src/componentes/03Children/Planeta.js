@@ -1,11 +1,11 @@
 const Planeta = ({nome, tipo, ordem}) => {
     return (
         <>
-            <h2>Nome: {nome}</h2>
-            <h2>Tipo: {tipo}</h2>
-            <h2>Ordem: {ordem}</h2>
+            <h3>Nome: {nome}</h3>
+            <h3>Tipo: {tipo}</h3>
+            <h3>Ordem: {ordem}</h3>
         </>
-    );
+    )
 }
 
 export default Planeta;
