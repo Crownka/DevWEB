@@ -1,4 +1,4 @@
-import Galaxia from "./components/03Children/Galaxia";
+import Galaxia from "./componentes/03Children/Galaxia";
 
 function App() {
     return (
