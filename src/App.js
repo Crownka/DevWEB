@@ -1,10 +1,11 @@
-import Galaxia from "./componentes/03Children/Galaxia";
+//import Estado from "./componentes/05Estados/Estado";
+import Pokemon from "./componentes/05Estados/Pokemon";
 
 function App() {
     return (
-        <div>
-            <Galaxia nome="Via Láctea" />
-        </div>
+        <>
+            <Pokemon />
+        </>
     );
 }
 
