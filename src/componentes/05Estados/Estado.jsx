@@ -1,21 +1,24 @@
-import { useState } from "react" // importa o hook useState
+import {useState} from 'react'
 
 const Estado = () => {
 
-    //let contador = 0
-    let [contador, setContador] = useState(0) // serve para inicializar o estado e para atualizar o estado
+    // let contador = 0     // variável que armazena o estado do componente
 
-    const incrementarContador = () => { 
-        //contador++
-        //console.log(contador)
-        setContador(contador => contador + 1) // atualiza o estado
+    // função que incrementa o contador
+    const incrementarContador = () => {
+        // contador++
+        // console.log(contador)
+        setContador(contador => contador + 1) // setContador é uma função que atualiza o estado do componente
     }
+
+    let [contador, setContador] = useState(0)
+    // https://react.dev/reference/react/hooks#state-hooks
 
     return (
         <div>
-            <h2>contador: {contador} </h2>
+            <h2>Contador: {contador}</h2>
             <button
-                onClick = {() => incrementarContador()} // chama a função incrementarContador
+                onClick={() => incrementarContador()}
             >
                 Incrementar contador
             </button>
@@ -23,4 +26,4 @@ const Estado = () => {
     )
 }
 
-export default Estado;
+export default Estado
