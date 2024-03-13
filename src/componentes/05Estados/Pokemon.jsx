@@ -1,4 +1,4 @@
-import { useState } from "react"
+import {useState} from "react"
 
 const Pokemon = () => {
     let url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
