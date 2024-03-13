@@ -3,7 +3,7 @@ import ComFilho from "./ComFilho";
 const ComPai = () => {
 
     function receberMensagemDoFilho(mensagem) {
-        alert("Recebi do meu filho:" + mensagem);
+        alert("Recebi do meu filho: " + mensagem);
     }
 
     return (
