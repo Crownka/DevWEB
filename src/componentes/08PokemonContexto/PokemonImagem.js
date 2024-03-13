@@ -1,26 +1,21 @@
-import { useContext } from "react";
-import { PokemonContexto } from "./PokemonContexto";
-
-import PokemonDecrementar from "./PokemonDecrementar";
+import { useContext } from "react"
+import { PokemonContexto } from "./PokemonContext"
+import PokemonDecrementar from "./PokemonDecrementar"
 import PokemonIncrementar from "./PokemonIncrementar"
 
 const PokemonImagem = () => {
-
     const {id} = useContext(PokemonContexto)
-    const url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
-
+    const url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
     return (
         <div>
-            <img
+            <img 
                 src={url+id+".png"}
                 alt="Pokemon"
-                width={150} 
+                width={150}
             />
-
-            <PokemonIncrementar />
             <PokemonDecrementar />
+            <PokemonIncrementar />
         </div>
-    );
+    )
 }
-
 export default PokemonImagem

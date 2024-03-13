@@ -1,19 +1,24 @@
-import { useContext } from 'react';
-import { PokemonContexto } from './PokemonContexto';
+import { PokemonContexto } from "./PokemonContext"
+import { useContext } from "react"
 
 const PokemonIncrementar = () => {
-
     const {setId} = useContext(PokemonContexto)
 
     return (
         <div>
-            <button
-                onClick={() => setId(a=>a + 1)}     
+            <button 
+                onClick = {
+                    () => { //sempre cria uma funcao anonima
+                    setId(
+                        (anterior) => {
+                            return anterior + 1
+                        }
+                    )
+                }}
             >
                 Incrementar
             </button>
         </div>
-    );
+    )
 }
-
 export default PokemonIncrementar
