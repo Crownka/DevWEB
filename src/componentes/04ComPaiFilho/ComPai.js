@@ -8,7 +8,7 @@ const ComPai = () => {
 
     return (
         <>
-            <ComFilho mensagem = "Oi filho" enviarMensagemParaOPai = {receberMensagemDoFilho}/>
+            <ComFilho mensagem="Oi filho" enviarMensagemParaOPai={receberMensagemDoFilho} />
         </>
     );
 }

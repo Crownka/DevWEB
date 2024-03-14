@@ -1,4 +1,4 @@
-const Temperatura = ({celsius, fahrenheint, kelvinn}) => {
+const Temperatura = ({ celsius, fahrenheint, kelvinn }) => {
 
     function celsiusParaFahrenheint(c) {
         return (c * 9 / 5 + 32).toFixed(2);
@@ -9,7 +9,7 @@ const Temperatura = ({celsius, fahrenheint, kelvinn}) => {
     }
 
     function kelvin(k) {
-        return {celsius:(k - 273).toFixed(2), fahrenheint:celsiusParaFahrenheint(k-273)};
+        return { celsius: (k - 273).toFixed(2), fahrenheint: celsiusParaFahrenheint(k - 273) };
     }
 
     return (

@@ -7,7 +7,7 @@ const PokemonPrincipal = () => {
     return (
         <div>
             <h3>Pokemon!</h3>
-            <PokemonContexto.Provider value={{id:id, setId:setId}}>
+            <PokemonContexto.Provider value={{ id: id, setId: setId }}>
                 <PokemonImagem />
             </PokemonContexto.Provider>
         </div>

@@ -1,5 +1,5 @@
 //nome, codigo da disciplina, créditos e periodo
-const Disciplina = ({nome, codigo, creditos, periodo}) => {
+const Disciplina = ({ nome, codigo, creditos, periodo }) => {
     return (
         <div>
             <h3>Nome: {nome}</h3>

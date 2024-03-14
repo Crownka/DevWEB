@@ -1,4 +1,4 @@
-import {useState} from "react"
+import { useState } from "react"
 
 const Pokemon = () => {
     let url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
@@ -13,7 +13,7 @@ const Pokemon = () => {
             <h3>ID: {contador}</h3>
             <img
                 src={url + contador + ".png"}
-                alt="Pokemon" 
+                alt="Pokemon"
                 width={200}
             /><br />
             <button
@@ -26,7 +26,7 @@ const Pokemon = () => {
             >
                 Decrementar Pokemon
             </button>
-            
+
         </div>
     )
 }

@@ -1,4 +1,4 @@
-const Planeta = ({nome, tipo, ordem}) => {
+const Planeta = ({ nome, tipo, ordem }) => {
     return (
         <>
             <h3>Nome: {nome}</h3>

@@ -1,4 +1,4 @@
-const ComFilho = ({mensagem, enviarMensagemParaOPai}) => {
+const ComFilho = ({ mensagem, enviarMensagemParaOPai }) => {
 
     //let mensagem = props
 
@@ -6,7 +6,7 @@ const ComFilho = ({mensagem, enviarMensagemParaOPai}) => {
         <>
             <h2>Mensagem do Pai: {mensagem}</h2>
             <button
-                onClick = {() => enviarMensagemParaOPai("Oi pai, tudo bem?")}
+                onClick={() => enviarMensagemParaOPai("Oi pai, tudo bem?")}
             >
                 Enviar mensagem para o Pai!
             </button>

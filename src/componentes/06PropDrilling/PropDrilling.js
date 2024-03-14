@@ -2,13 +2,13 @@ const CompA = () => {
     const variavelDeA = "Variável de A"
     return (
         <div>
-            <CompB variavelDeA = {variavelDeA}/>
-            <CompC variavelDeA = {variavelDeA}/>
+            <CompB variavelDeA={variavelDeA} />
+            <CompC variavelDeA={variavelDeA} />
         </div>
     )
 }
 
-const CompB = ({variavelDeA}) => {
+const CompB = ({ variavelDeA }) => {
     return (
         <div>
             <h3>B: {variavelDeA}</h3>
@@ -16,23 +16,23 @@ const CompB = ({variavelDeA}) => {
     )
 }
 
-const CompC = ({variavelDeA}) => {
+const CompC = ({ variavelDeA }) => {
     return (
         <div>
-            <CompD variavelDeA = {variavelDeA}/>
+            <CompD variavelDeA={variavelDeA} />
         </div>
     )
 }
 
-const CompD = ({variavelDeA}) => {
+const CompD = ({ variavelDeA }) => {
     return (
         <div>
-            <CompE variavelDeA = {variavelDeA}/>
+            <CompE variavelDeA={variavelDeA} />
         </div>
     )
 }
 
-const CompE = ({variavelDeA}) => {
+const CompE = ({ variavelDeA }) => {
     return (
         <div>
             <h3>E: variavelDeA{variavelDeA}</h3>
@@ -40,5 +40,5 @@ const CompE = ({variavelDeA}) => {
     )
 }
 
-export {CompA, CompB, CompC, CompD, CompE}
+export { CompA, CompB, CompC, CompD, CompE }
 

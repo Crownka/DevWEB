@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SistemaSolar = ({children, galaxia}) => {
+const SistemaSolar = ({ children, galaxia }) => {
     return (
         <>
             <h2>Sistema Solar da Galáxia {galaxia}</h2>
@@ -8,7 +8,7 @@ const SistemaSolar = ({children, galaxia}) => {
             {React.Children.map(
                 children,
                 (child) => {
-                    return React.cloneElement(child, {galaxia})
+                    return React.cloneElement(child, { galaxia })
                 }
             )}
         </>

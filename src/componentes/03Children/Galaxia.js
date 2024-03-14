@@ -1,7 +1,7 @@
 import SistemaSolar from "./SistemaSolar"
 import Planeta from "./Planeta"
 
-const Galaxia = ({nome}) => {
+const Galaxia = ({ nome }) => {
     return (
         <div>
             <h1>Galáxia: {nome}</h1>

@@ -14,7 +14,7 @@ const FuncoesInternas = () => {
 
     const multiplicar = (a, b) => a * b;
 
-    const dividir = (a,b) => a / b;
+    const dividir = (a, b) => a / b;
 
     return (
         <div>

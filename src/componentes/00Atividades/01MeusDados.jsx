@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-let nome = "Junior Silva";
+let nome = "Patrick de Farias Ramos";
 let curso = "Ciência da Computação";
 let univ = "UFC - Campus Quixadá";
 
@@ -31,7 +31,7 @@ let univ = "UFC - Campus Quixadá";
         <h1>Universidade: {univ}</h1>
     </div> */
 
-class ImprimeDados extends Component{
+class ImprimeDados extends Component {
     render() {
         return (
             <div>

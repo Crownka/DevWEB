@@ -3,11 +3,11 @@ import { useContext } from "react"
 
 const CompA = () => {
 
-    const variavelDeA = {nome: "Fulano", idade: 30, curso: "Desenvolvimento de Software para Web"}
+    const variavelDeA = { nome: "Fulano", idade: 30, curso: "Desenvolvimento de Software para Web" }
 
     return (
         <div>
-            <Variavel.Provider value = {variavelDeA}>
+            <Variavel.Provider value={variavelDeA}>
                 <CompB />
                 <CompC />
             </Variavel.Provider>
@@ -53,4 +53,4 @@ const CompE = () => {
     )
 }
 
-export {CompA, CompB, CompC, CompD, CompE}
+export { CompA, CompB, CompC, CompD, CompE }

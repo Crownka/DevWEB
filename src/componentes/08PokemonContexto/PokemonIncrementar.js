@@ -2,19 +2,12 @@ import { PokemonContexto } from "./PokemonContext"
 import { useContext } from "react"
 
 const PokemonIncrementar = () => {
-    const {setId} = useContext(PokemonContexto)
+    const { setId } = useContext(PokemonContexto)
 
     return (
         <div>
-            <button 
-                onClick = {
-                    () => { //sempre cria uma funcao anonima
-                    setId(
-                        (anterior) => {
-                            return anterior + 1
-                        }
-                    )
-                }}
+            <button
+                onClick={() => { setId((anterior) => { return anterior + 1 }) }}
             >
                 Incrementar
             </button>

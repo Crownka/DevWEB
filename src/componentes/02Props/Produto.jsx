@@ -4,7 +4,7 @@ const Produto = (name, category, price) => {
 
     return (
         <div>
-            
+
             {/* <h1>{objJSON.notas.nota1}</h1> */}
 
             <h3>Nome: {name}</h3>

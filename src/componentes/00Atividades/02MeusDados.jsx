@@ -9,7 +9,7 @@
 } */
 
 
-const ImprimeDados = ({nome, mat, curso, univ}) => {
+const ImprimeDados = ({ nome, mat, curso, univ }) => {
     return (
         <div>
             <h1>Nome: {nome}</h1>
