@@ -2,7 +2,7 @@ import React from 'react';
 import { World, Arena, Hero, Enemy } from './componentes/00Atividades/02Atividades/03Batalha';
 //import './App.css'; pra ficar mais bonito (centralizado)
 
-// não conseguimos usar o import de imagens pra deixar daora
+// não conseguimos usar o import de imagens pra deixar daora, acho que precisa de css pra isso
 
 function App() {
   return (
