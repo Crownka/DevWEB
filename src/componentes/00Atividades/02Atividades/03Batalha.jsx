@@ -3,7 +3,7 @@ import React from 'react';
 function Hero(props) {
   return (
     <div>
-      <h2>Hero: {props.name}</h2>
+      <h3>Hero: {props.name}</h3>
       <img src={props.img} alt="Hero" />
     </div>
   );
@@ -12,7 +12,7 @@ function Hero(props) {
 function Enemy(props) {
   return (
     <div>
-      <h2>Enemy: {props.name}</h2>
+      <h3>Enemy: {props.name}</h3>
       <img src={props.img} alt="Enemy" />
     </div>
   );
@@ -21,7 +21,7 @@ function Enemy(props) {
 function Arena(props) {
   return (
     <div>
-      <h1>Arena: {props.arena}</h1>
+      <h2>Arena: {props.arena}</h2>
       {React.Children.map(props.children, child => {
         return React.cloneElement(child, { arena: props.arena });
       })}
