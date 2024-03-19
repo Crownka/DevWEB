@@ -10,7 +10,7 @@ function App() {
       <World>
 
         <Arena arena="Underground Arena">
-          <Hero name="Baki Hanma" img="assets/imagens/hero.jpg" />
+          <Hero name="Baki Hanma" img="assets/Baki.jpeg" />
           <Enemy name="Yujiro Hanma" img="" />
         </Arena>
 
