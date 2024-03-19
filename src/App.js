@@ -1,6 +1,8 @@
 import React from 'react';
 import { World, Arena, Hero, Enemy } from './componentes/00Atividades/02Atividades/03Batalha';
-import './App.css';
+//import './App.css'; pra ficar mais bonito (centralizado)
+
+// não conseguimos usar o import de imagens pra deixar daora
 
 function App() {
   return (
@@ -8,13 +10,13 @@ function App() {
       <World>
 
         <Arena arena="Underground Arena">
-          <Hero name="Baki" img="assets/imagens/hero.jpg" /> // não consigo importar as imagens
-          <Enemy name="Yujiro" img="IMAGENS/Yujiro.jpeg" />
+          <Hero name="Baki Hanma" img="assets/imagens/hero.jpg" />
+          <Enemy name="Yujiro Hanma" img="" />
         </Arena>
 
         <Arena arena="Purgatory">
-          <Hero name="Ohma" img="IMAGENS/another_hero.jpg" /> // não consigo importar as imagens
-          <Enemy name="Raian" img="IMAGENS/another_enemy.png" />
+          <Hero name="Ohma Tokita" img="" />
+          <Enemy name="Raian Kure" img="" />
         </Arena>
 
       </World>
