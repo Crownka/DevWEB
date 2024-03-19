@@ -52,7 +52,7 @@ import { World, Arena, Hero, Enemy } from './componentes/00Atividades/02Atividad
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <World>
 
         <Arena arena="Underground Arena">
