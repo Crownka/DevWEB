@@ -1,4 +1,4 @@
-import { ConfigureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import counterSlice from "../Slice/counterSlice";
 
 const store = configureStore({
