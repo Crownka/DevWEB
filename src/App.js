@@ -1,14 +1,12 @@
-//import React from 'react';
-//import Efeito from './componentes/09Efeito/efeito';
-import ComponentePromessa from './componentes/10Promessa/MeuAsync';
+//import CovidAxios from "./components/12Axios/CovidAxios";
+import PrincipalRedux from "./componentes/12Redux/PrincipalRedux";
 
 function App() {
-  return (
-    <div>
-      <h2>Desenvolvimento de Software para a WEB!</h2>
-      <ComponentePromessa />
-    </div>
-  )
+    return (
+        <div>
+            <PrincipalRedux />
+        </div>
+    );
 }
 
 export default App;
