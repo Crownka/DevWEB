@@ -1,0 +1,20 @@
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 110, 21);
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(190, 85, 5);
+    margin: 10px;
+}
