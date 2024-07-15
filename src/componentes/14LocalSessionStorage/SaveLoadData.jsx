@@ -22,7 +22,7 @@ const SaveLoadData = () => {
     }
 
     function loadData(){
-        
+        const alunoStorage = JSON.parse(localStorage.getItem("aluno"))
     }
 
     return (
@@ -33,10 +33,10 @@ const SaveLoadData = () => {
                     JSON.stringify(alunoStorage)
                 }
             </h3>
-            <button>
+            <button onClick={saveData}>
                 SAVE DATA
             </button>
-            <button>
+            <button onClick={loadData}>
                 LOAD DATA
             </button>
         </div>
