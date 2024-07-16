@@ -3,7 +3,7 @@ import { useState } from "react"
 const SaveLoadData = () => {
 
     const aluno = {
-        nome:"Fulano",
+        nome:"Patrick",
         curso:"CC",
         IRA : 7.5
     }
