@@ -16,6 +16,15 @@ article {
     padding: 10px;
     margin: 10px;
     flex: 200px;
+    height: 450px;
+}
+
+article > div#container {
+    display: flex;
+    flex-flow: row wrap;
+}
+article > div#container > button{
+    flex: 50px;
 }
 
 h1 {
@@ -31,7 +40,21 @@ p {
     font-family: Arial, Helvetica, sans-serif;     
 }
 
+article:nth-of-type(1) {
+    background-color: blueviolet;
+    flex: 3;
+}
+article:nth-of-type(2) {
+    background-color: blueviolet;
+    flex: 3;
+}
 article:nth-of-type(3) {
     background-color: blueviolet;
-    flex: 8;
+    flex: 4;
+}
+button {
+    height: 30px;
+    width: 50px;
+    margin: 10px 25px 10px 25px;
+    font-weight: bold;
 }
