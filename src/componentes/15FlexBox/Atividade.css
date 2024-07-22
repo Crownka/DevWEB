@@ -5,14 +5,14 @@ section {
 }
 
 header {
-    background-color: orangered;
+    background-color: salmon;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 article {
-    background-color: rgb(255, 153, 0);
+    background-color: lightcoral;
     padding: 10px;
     margin: 10px;
     flex: 200px;
@@ -24,7 +24,7 @@ article > div#container {
     flex-flow: row wrap;
 }
 article > div#container > button{
-    flex: 50px;
+    flex: 70px;
 }
 
 h1 {
@@ -41,15 +41,15 @@ p {
 }
 
 article:nth-of-type(1) {
-    background-color: blueviolet;
+    background-color: mediumvioletred;
     flex: 3;
 }
 article:nth-of-type(2) {
-    background-color: blueviolet;
+    background-color: mediumseagreen;
     flex: 3;
 }
 article:nth-of-type(3) {
-    background-color: blueviolet;
+    background-color: mediumblue;
     flex: 4;
 }
 button {
