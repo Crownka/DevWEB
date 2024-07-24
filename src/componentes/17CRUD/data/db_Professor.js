@@ -5,3 +5,5 @@ const professores = [
     { id: 3, nome: "Isadora pinto", curso: "ES", titulação: "Doutor" },
     { id: 4, nome: "KDJSIFHISF", curso: "EC", titulação: "Doutor" }
 ]
+
+export default professores
