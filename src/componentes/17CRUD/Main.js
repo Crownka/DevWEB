@@ -5,6 +5,8 @@ import Home from "./Home";
 import Criar from "./professor/Criar";
 import Editar from "./professor/Editar";
 import Listar from "./professor/Listar";
+import CriarAluno from "./aluno/CriarAluno";
+import ListarAluno from "./aluno/ListarAluno";
 
 const router = createBrowserRouter(
     [
@@ -23,13 +25,21 @@ const router = createBrowserRouter(
                 {
                     path: "professor/editar",
                     element: <Editar />
-                }
+                },
+                {
+                    path: "aluno/listar",
+                    element: <ListarAluno />
+                },
+                {
+                    path: "aluno/criar",
+                    element: <CriarAluno />
+                },
             ]
-        }
+        },
     ]
 )
 
-const Main = () => {
+const Main = ( ) => {
     return (
         <RouterProvider router={router} />
     )
