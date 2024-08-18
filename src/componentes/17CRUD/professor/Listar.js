@@ -1,29 +1,23 @@
-import professores from "../data/db_Professor"
-import "../css/crud.css"
+import professores from "../data/db_professor";
+import "../css/crud.css";
 
 const Listar = () => {
-
     const renderizarProfessores = () => {
-        const vetorResultado = professores.map(
-            (professor) => {
-                return (
-                    <tr>
-                        <td>{professor.id}</td>
-                        <td>{professor.nome}</td>
-                        <td>{professor.curso}</td>
-                        <td>{professor.titulacao}</td>
-                        <td>
-                            <div>
-                                <button type="button" className="btn btn-secondary">Editar</button>
-                                <button type="button" className="btn btn-danger">Apagar</button>
-                            </div>
-                        </td>
-                    </tr>
-                )
-            }
-        )
-        return vetorResultado
-    }
+        return professores.map((professor) => {
+            return (
+                <tr key={professor.id}>
+                    <th scope="row">{professor.id}</th>
+                    <td>{professor.nome}</td>
+                    <td>{professor.curso}</td>
+                    <td>{professor.titulacao}</td>
+                    <td>
+                        <button className="btn btn-secondary">Editar</button>
+                        <button className="btn btn-danger">Excluir</button>
+                    </td>
+                </tr>
+            );
+        });
+    };
 
     return (
         <div className="page-content">
@@ -35,16 +29,15 @@ const Listar = () => {
                             <th scope="col">ID</th>
                             <th scope="col">Nome</th>
                             <th scope="col">Curso</th>
-                            <th scope="col">Titulacao</th>
+                            <th scope="col">Titulação</th>
+                            <th scope="col"></th>
                         </tr>
                     </thead>
-                    <tbody>
-                        {renderizarProfessores()}
-                    </tbody>
+                    <tbody>{renderizarProfessores()}</tbody>
                 </table>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Listar
+export default Listar;
