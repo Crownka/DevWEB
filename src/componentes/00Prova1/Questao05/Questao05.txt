@@ -1,0 +1,12 @@
+Props drilling acontece quando um dado precisa ser passado de um componente pai para um componente filho distante, 
+o que pode exigir passar essa prop por vários níveis de componentes que não precisam necessariamente desse dado. 
+Isso torna o código mais difícil de manter e entender.
+
+Contextos podem resolver o problema de props drilling pois fornece uma maneira centralizada 
+de compartilhar dados entre componentes em uma árvore, sem a necessidade de passar "props" manualmente 
+por cada nível da hierarquia dos componentes. Invés de ter que viajar uma longa até o seu pai para perguntar
+algo a ele, basta fazer uma ligação e pergunta-lo por telefone mesmo
+
+Com o uso de Context API(tive que pesquisar pra saber), um valor pode ser disponibilizado diretamente 
+para qualquer componente da árvore, sem a necessidade de ser explicitamente passado por props. 
+Isso torna o código mais simples e limpo.
